@@ -2,7 +2,7 @@
 
 This is a site that summarizes the library on [Riot.js](http://riotjs.com).
 
-# Lisence
+# License
 
 [MIT License](https://github.com/k-kuwahara/riot-ecosystem/blob/master/LICENSE)
 
