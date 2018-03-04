@@ -8,7 +8,7 @@ const namedExports = {};
 export default {
   input: 'src/app.js',
   output: {
-    file: 'dist/bundle.js',
+    file: 'src/dist/bundle.js',
     sourcemap: 'false',
     exports: 'none',
     format: 'iife',
