@@ -13,6 +13,7 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "gh-pages": "^1.1.0",
+    "imagemin-cli": "^3.0.0",
     "npm-run-all": "^4.1.2",
     "object-assign": "^4.1.1",
     "prettier": "^1.11.1",
@@ -30,6 +31,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "run-s build:clean build:prepare build:html build:img build:font build:tinymce build:css watch",
+    "build:img": "imagemin public/img/**/* --out-dir=dist/img",
     "build": "run-s build:clean build:prepare build:html build:img build:font build:tinymce build:js build:css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
