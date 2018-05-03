@@ -1,3 +1,7 @@
-import { riot } from 'riot'
+import riot from 'riot'
+import './tags/app.tag'
 
-riot.mount('app')
+riot.mount('app', {
+   title: 'Hello Riot Ecosystem!!'
+})
+
