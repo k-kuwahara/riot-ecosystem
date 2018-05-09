@@ -2,7 +2,6 @@ import mout from 'mout'
 import buble from 'rollup-plugin-buble'
 import commonjs from 'rollup-plugin-commonjs'
 import json from 'rollup-plugin-json'
-import sass from 'rollup-plugin-sass'
 import nodeResolve from 'rollup-plugin-node-resolve'
 import progress from 'rollup-plugin-progress'
 import riot from 'rollup-plugin-riot'
@@ -54,9 +53,6 @@ export default {
         edge: 13
       }
     }),
-    progress(),
-    sass({
-      output: 'bundle.css'
-    })
+    progress()
   ]
 }

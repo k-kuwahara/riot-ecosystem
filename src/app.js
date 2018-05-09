@@ -1,5 +1,5 @@
 import riot from 'riot'
-import './tags/app.tag'
+import './components/app.tag'
 
 riot.mount('app', {
    title: 'Hello Riot Ecosystem!!'
